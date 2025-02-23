@@ -2,3 +2,23 @@
 /loss_vs_epoch.png
 /wandb
 /API.txt
+# Ignore Python virtual environment
+autogluon_env/
+
+# Ignore common Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore wandb files
+wandb/
+
+# Ignore model directories
+AutogluonModels/
+
+# Ignore generated images
+*.png
+
+# Keep current notebook and API key
+!MLP.ipynb
+!API.txt
